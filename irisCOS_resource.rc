@@ -1,0 +1,37 @@
+#include <windows.h>
+
+IDI_ICON1	ICON	DISCARDABLE	"D:\\Example\\qt\\irisCOS\\irisCOS\\irisCOS.ico"
+
+VS_VERSION_INFO VERSIONINFO
+	FILEVERSION 3,0,0,0
+	PRODUCTVERSION 3,0,0,0
+	FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+	FILEFLAGS VS_FF_DEBUG
+#else
+	FILEFLAGS 0x0L
+#endif
+	FILEOS VOS__WINDOWS32
+	FILETYPE VFT_DLL
+	FILESUBTYPE 0x0L
+	BEGIN
+		BLOCK "StringFileInfo"
+		BEGIN
+			BLOCK "0c0304b0"
+			BEGIN
+				VALUE "CompanyName", "VARIS(SHENZHEN)\0"
+				VALUE "FileDescription", "\0"
+				VALUE "FileVersion", "3.0.0.0\0"
+				VALUE "LegalCopyright", "Copyright(C) 2018 VARIS\0"
+				VALUE "OriginalFilename", "irisCOS.exe\0"
+				VALUE "ProductName", "iris pvr COS\0"
+				VALUE "ProductVersion", "3.0.0.0\0"
+			END
+		END
+		BLOCK "VarFileInfo"
+		BEGIN
+			VALUE "Translation", 0x0c03, 1200
+		END
+	END
+/* End of Version info */
+
